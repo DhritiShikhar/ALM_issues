@@ -1,0 +1,3 @@
+##This code uses Jira library for Go and prints out the result of JQL from Jira Server: https://issues.jboss.org/
+
+./alm_jira -uname=<your username> -pwd=<your password> -jclient=<Jira client> -jql=<Jira Query>  
