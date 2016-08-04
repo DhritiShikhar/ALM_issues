@@ -1,0 +1,17 @@
+RemoteIssue to WorkItem Mapping Model
+-------------------------------------
+
+|====================================================
+|Attribute | Required | Mapping | DataType
+|Id    | No     | - | -
+|Title    | Yes     | UserStory.Title |
+|Description    | Yes    | UserStory.Description |
+|Priority | Yes | UserStory.Priority |
+|Status | Yes | UserStory.Status |
+|Tags/ Keywords/ Labels    | Yes | UserStory.Tags | 
+|Reporter | Yes | UserStory.Reporter |
+|Assignee | Yes | UserStory.Assignee |
+|Collaborator/ Watcher | Yes | UserStory.Collaborators |
+|Comments | Yes | UserStory.Comments |
+|Attachments | Yes |  UserStory.Attachments |
+|==================================================
