@@ -1,5 +1,5 @@
-RemoteIssue to WorkItem Mapping Model
--------------------------------------
+RemoteIssue to WorkItem Mapping Model (Documentation)
+------------------------------------------------------
 
 |====================================================
 |Attribute | Required | Mapping | Data Type
