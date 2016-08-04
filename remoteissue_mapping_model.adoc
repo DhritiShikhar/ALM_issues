@@ -2,16 +2,16 @@ RemoteIssue to WorkItem Mapping Model
 -------------------------------------
 
 |====================================================
-|Attribute | Required | Mapping | DataType
+|Attribute | Required | Mapping | Data Type
 |Id    | No     | - | -
-|Title    | Yes     | UserStory.Title |
-|Description    | Yes    | UserStory.Description |
-|Priority | Yes | UserStory.Priority |
-|Status | Yes | UserStory.Status |
-|Tags/ Keywords/ Labels    | Yes | UserStory.Tags | 
-|Reporter | Yes | UserStory.Reporter |
-|Assignee | Yes | UserStory.Assignee |
-|Collaborator/ Watcher | Yes | UserStory.Collaborators |
-|Comments | Yes | UserStory.Comments |
-|Attachments | Yes |  UserStory.Attachments |
-|==================================================
+|Title    | Yes     | UserStory.Title | String
+|Description    | Yes    | UserStory.Description | String
+|Priority | Yes | UserStory.Priority | String
+|Status | Yes | UserStory.Status | String 
+|Tags/ Keywords/ Labels    | Yes | UserStory.Tags | Slice
+|Reporter | Yes | UserStory.Reporter | String
+|Assignee | Yes | UserStory.Assignee | String/ Slice
+|Collaborator/ Watcher | Yes | UserStory.Collaborators | Slice
+|Comments | Yes | UserStory.Comments | Slice
+|Attachments | Yes |  UserStory.Attachments | Slice
+|====================================================
